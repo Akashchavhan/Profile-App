@@ -1,0 +1,30 @@
+/* ProfileCard.css */
+
+/* Profile Image */
+.card-img-top {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  /* Add smooth hover transition */
+  .card-body button {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .card-body button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Style Profile Card */
+  .profile-card {
+    transition: all 0.3s ease;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  

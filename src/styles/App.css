@@ -1,0 +1,12 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.profile-card {
+  max-width: 345px;
+  margin: 10px;
+}
